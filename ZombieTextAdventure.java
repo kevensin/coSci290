@@ -6,8 +6,8 @@ public static void main (String[] args)
 { 
   Scanner input = new Scanner(System.in);
   String name;
-  String partnerName;
-  int age;
+  String partnerName = "Jake";
+  int age = 0;
   
   System.out.println("Welcome survivor! Please, tell us your name?");
   
@@ -36,16 +36,28 @@ public static void main (String[] args)
   {
     partnerName = "JO";
       System.out.println(age + ", then you must be from a time that will take me centuries to get to. Your advantage in knowing about the future may aid you in making decisions but, I am afraid to tell you that the technology in this era may be from the stonage to you. In that case you must partner up with " + partnerName + ". For he is well educated in technology for this time period. He is the the Leonardo Da Vinci of our time period");
+    /*partneringUp(partnerName);*/
+  }
+  else
+  {
+    System.out.println("You didn't tell me you are age. So then you will be partnered with " + partnerName); 
+    
   }
   
-  /*System.out.println("Say hello to your new partner " + partnerName + ".");*/
+  System.out.println("Say hello to your new partner " + partnerName + ".");
   
   
 
 
 
 }
-
+  
+  /*public String partneringUp(String partnerName)
+  {
+    
+    return "Say hello to your new partner " + parnerName;
+    
+  }*/
 
 
 }
