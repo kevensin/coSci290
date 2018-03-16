@@ -14,7 +14,7 @@ public static void main(String[] args)
   //for allows each array to be printed out
   for(int i = 0; i < numbers.length; i++)
   {
-    System.out.println(numbers[i] + " is array " + i + "\n");
+    System.out.println("\n" + numbers[i] + " is array " + i);
   }
 } 
 
