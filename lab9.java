@@ -51,6 +51,7 @@ public class lab9
     list.add(profile(4.0, "Kinesiology"));
     list.add(profile(3.0, "Art"));
     
+    
     printStudents(list);
     
     //below the method findMajor() is used 
@@ -64,6 +65,7 @@ public class lab9
   //method printStudents() is used to print out the array using a for loop
   public static void printStudents(ArrayList<Student> list)
   {
+    
     for(int i = 0; i < list.size(); i++)
     {
       System.out.println("\n" + list.get(i));
